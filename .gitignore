@@ -12,6 +12,7 @@ dist
 # Environment files and credentials
 .env
 .env.*
+!.env.example
 
 # Python
 __pycache__/

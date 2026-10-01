@@ -14,7 +14,7 @@ Create a Vercel project for this repository and set its **Root Directory** to `f
 
 - `VITE_API_BASE_URL`: the public HTTPS origin of the backend, without a trailing slash.
 
-The ignored repository-root `.env` is used for local development by both the frontend and backend. Set `VITE_API_BASE_URL` there; the backend CORS configuration must include the deployed Vercel origin. Vercel deployments should set `VITE_API_BASE_URL` in the Vercel project settings because `.env` is intentionally not committed.
+The ignored repository-root `.env` is used for local development by both the frontend and backend. Copy the committed `.env.example` to `.env` and replace the example origins. Set `VITE_API_BASE_URL` there; the backend CORS configuration must include the deployed Vercel origin. Vercel deployments should set `VITE_API_BASE_URL` in the Vercel project settings because `.env` is intentionally not committed.
 
 ## Backend on AWS EC2
 
