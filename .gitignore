@@ -9,14 +9,53 @@ lerna-debug.log*
 
 node_modules
 dist
-dist-ssr
+# Environment files and credentials
+.env
+.env.*
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+**/.venv/
+venv/
+**/venv/
+.pytest_cache/
+
+# Hugging Face and other local model caches
+.cache/
+**/.cache/
+huggingface/
+**/huggingface/
+models/
+**/models/
+
+# JavaScript dependencies and generated output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+.vercel/
+
+# Logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 *.local
 
-# Editor directories and files
+# Editors and operating systems
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
